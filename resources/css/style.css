@@ -250,3 +250,62 @@
         cursor: pointer;
     }
 }
+
+.header-search-box .search-box-wrap {
+    right: 2.6%;
+    width: 369px;
+}
+.header-search-box .search-box-wrap {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 1px 2px;
+    display: none;
+    padding: 15px;
+    position: absolute;
+    right: 7%;
+    top: 48px;
+    width: 369px;
+    z-index: 9999;
+}
+.search-form, .woocommerce-product-search {
+    position: relative;
+}
+.search-form .search-submit {
+    border: medium none;
+    color: #ffffff;
+    font-weight: 500;
+    height: auto;
+    padding: 7px 9px;
+    right: 0;
+    border-radius: 0;
+}
+
+
+button, a.button, a.button:visited, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #ff7d06 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    font-family: "Rajdhani",sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 7px 27px;
+    border-radius: 27px;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.header-search-box .search-form input.search-field {
+    height: auto;
+    padding: 10px 22% 10px 18px;
+    width: 71%;
+}
+.search-form input.search-field, .woocommerce-product-search input.search-field {
+    padding: 10px 22% 10px 18px;
+    width: 71%;
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+}
